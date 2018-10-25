@@ -109,3 +109,6 @@ ul{
     padding-bottom: 45px;
 }
 
+.navbar-toggler{
+    background-color: rgb(118, 87, 255);
+}
