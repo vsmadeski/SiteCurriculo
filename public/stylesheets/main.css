@@ -112,3 +112,8 @@ ul{
 .navbar-toggler{
     background-color: rgb(118, 87, 255);
 }
+
+.brand-icons i{
+    font-size: 1.7rem;
+    padding: 0 10px;
+}
