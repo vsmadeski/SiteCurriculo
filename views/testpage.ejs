@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestPage</title>
+    <style>
+        body{
+            background-color: rgb(187, 179, 179);
+        }
+    </style>
+
+</head>
+<body>
+
+    
+    
+    <div id="particles-js"></div>
+    <h1 class="class-typed">Test Page!</h1>
+    <div id="texto">palavra</div>
+    <div class="class-typed" id="typed">
+        <p>paragrafo do typed</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', '/js/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+        });
+
+        let options = {
+            showCursor: false,
+            strings: ["", "Paragrafo typed"],
+            typeSpeed: 40
+        }
+
+        //var typed = new Typed("#typed", options);
+    </script>
+
+    <style>
+
+        #particles-js{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<% include ./partials/header.ejs %>
+
+<div class="container">
+    <div class="">
+        <h1><strong>Contato</strong></h1>
+        <p>Para entrar em contato, envie um email para <strong>vsmadeski.dev@gmail.com</strong> ou preencha o formulário abaixo. Também estou disponível nas <strong>redes sociais.</strong></p>
+    </div>
+    <form action="/contato" method="POST">
+        <div class="contato-wrapper">
+            <div class="contato-div contato-div-sm">
+                <input type="text" name="contato[nome]" placeholder="Nome" required>
+                <input class="last" type="email" name="contato[email]" placeholder="Email" required>
+            </div>
+            <div class="contato-div contato-div-lg">
+                <input type="text" name="contato[assunto]" placeholder="Assunto" required>
+            </div>
+            <div class="contato-div contato-div-lg">
+                <textarea name="contato[mensagem]" rows="14" placeholder="Mensagem" required></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit">
+        </div>
+    </form>
+</div>
+
+<% include ./partials/footer.ejs %>
