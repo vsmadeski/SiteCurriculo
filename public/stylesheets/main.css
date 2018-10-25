@@ -72,30 +72,27 @@ ul{
     height: 100%;
 }
 
-#navbar-main{
+.navbar-main{
     background-color: black;
     color: rgb(118, 87, 255);
 }
 
-#navbar-main a{
+.navbar-main a{
     color: rgb(118, 87, 255);
     font-weight: bold;
 }
 
-#navbar-main a:hover{
+.navbar-main a:hover{
     color: white;
 }
 
-#navbar-main i span{
+.navbar-main i span{
     font-family: 'Chakra Petch', sans-serif;
 }
 
-#bar-bottom{
-    position: sticky;
-    height: 90px;
-    background-color: black;
+#nav-bottom{
+    font-size: 0.83rem;
+    display: block;
+    text-align: center;
 }
 
-#pre-bar-bottom{
-    padding-top: 50px;
-}
