@@ -1,7 +1,13 @@
 body{
     background-color: rgb(118, 87, 255);
     font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.016rem;
 }
+
+.container *{
+    text-shadow: 2px 2px 5px lightgrey;
+}
+
 a{
     color: white;
 }
