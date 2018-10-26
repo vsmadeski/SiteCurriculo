@@ -1,3 +1,5 @@
+console.log(platform.os.family);
+
 let typeds = $(".typer-class");
 
 let options = {
@@ -13,10 +15,10 @@ for(element of typeds){
     new Typed(element, options);
 }
 
-// Do not remove!
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */ 
 particlesJS.load('particles-js', '/js/particles.json', function() {
 });
+
 
 $("form").submit( (event) => {
     event.preventDefault();
@@ -28,4 +30,3 @@ $("form").submit( (event) => {
         $("form").off("submit").submit();
     });
 });
-
