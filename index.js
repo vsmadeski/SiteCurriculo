@@ -10,6 +10,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(routes);
 
-app.listen(6969, function(req, res){
-    console.log("Server listening on port 6969....");
+app.listen(process.env.PORT, function(req, res){
+    console.log("Server listening on port " + process.env.PORT + "...");
 });
