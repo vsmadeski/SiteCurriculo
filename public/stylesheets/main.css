@@ -104,17 +104,12 @@ ul{
     text-align: center;
 }
 
-.logos{
-    padding-bottom: 40px;
+.bottom-item{
+    padding-bottom: 45px;
 }
 
 .boards-row{
     padding-top: 10px;
-    padding-bottom: 40px;
-}
-
-.contato-row{
-    padding-bottom: 45px;
 }
 
 .navbar-toggler{
