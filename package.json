@@ -12,9 +12,10 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "nodemailer": "^4.6.8"
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0"
   },
-  "engines":{
+  "engines": {
     "node": "8.12.0"
   }
 }
