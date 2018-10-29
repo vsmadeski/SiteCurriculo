@@ -1,11 +1,13 @@
 let express = require("express");
 let    app  = express();
-let request = require('request');
+let request = require("request");
+let bodyParser = require("body-parser");
 
 setInterval(() => {
     request.get("https://vsmadeski.herokuapp.com/");
 },300000);
 
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 
 let routes = require("./routes");
