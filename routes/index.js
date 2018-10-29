@@ -3,7 +3,7 @@ let router = express.Router();
 let mailer = require("../mailer.js");
 
 router.get("/", (req, res) => {
-    res.render("home.ejs");             // DEBUGING TESTS CHANGE WHEN NEEDED
+    res.render("home.ejs");             
 });
 
 router.get("/conhecimentos", (req, res) => {
@@ -20,8 +20,7 @@ router.get("/contato", (req, res) => {
 
 router.post("/contato", (req, res) => {
     let contato = req.body.contato;
-    res.redirect("/contato");
-  /*  mailer.mailOptions.text = "Nome: " + contato.nome +
+    mailer.mailOptions.text = "Nome: " + contato.nome +
                                 "\nEmail: " + contato.email +
                                 "\nAssunto: " + contato.assunto +
                                 "\nMensagem: " + contato.mensagem;
@@ -32,7 +31,7 @@ router.post("/contato", (req, res) => {
             console.log("Email sent " + info.response);
             res.redirect("/contato");
         }
-    });*/ 
+    });
 });
 
 
