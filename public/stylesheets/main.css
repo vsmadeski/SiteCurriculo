@@ -126,3 +126,11 @@ ul{
 .conhecimentos-page .col-7 .row .col-6{
     padding-left: 20%;
 }
+
+.boards-row img{
+    max-width: 70%;
+}
+
+.boards-row img:nth-of-type(2){
+    float: right;
+}
