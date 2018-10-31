@@ -84,9 +84,10 @@ ul{
 }
 
 #nav-bottom{
-    font-size: 0.83rem;
+    font-size: 0.8rem;
     display: block;
     text-align: center;
+    font-weight: bold;
 }
 
 .bottom-item{
