@@ -46,19 +46,6 @@ input[type=submit]{
     width: 100%;
 }
 
-#photo{
-    max-height: 70%;
-    display: block;
-    max-width: 70%;
-    margin: auto;
-    margin-top: 20%;
-
-}
-
-#photo-container{
-    padding: 0;
-}
-
 ul{
     padding-inline-start: 20px;
 }
@@ -121,4 +108,12 @@ ul{
 
 #spacer{
     height: 75px;
+}
+
+.home-description h1{
+    font-size: 4.3rem;
+}
+
+.home-description p{
+    font-size: 2rem; /* mudar tamanho*/
 }
