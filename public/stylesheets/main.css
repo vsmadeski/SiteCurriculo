@@ -4,16 +4,13 @@ body{
     font-size: 1.016rem;
 }
 
-.container *{
-    text-shadow: 2px 2px 5px lightgrey;
-}
-
 a{
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
 
 a:hover{
-    color: white;
+    color: #cecece;
 }
 
 p{
@@ -86,12 +83,13 @@ ul{
 }
 
 .navbar-main a{
+    text-decoration: none;
     color: rgb(118, 87, 255);
     font-weight: bold;
 }
 
 .navbar-main a:hover{
-    color: white;
+    color: #cecece;
 }
 
 .navbar-main i span{
