@@ -118,3 +118,11 @@ ul{
 .home-description p{
     font-size: 2rem; /* mudar tamanho*/
 }
+
+.conhecimentos-page .col-5 .row .col-6{
+    padding-bottom: 10px;
+}
+
+.conhecimentos-page .col-7 .row .col-6{
+    padding-left: 20%;
+}
