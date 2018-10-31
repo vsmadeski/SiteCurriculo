@@ -2,6 +2,7 @@ let osOptions = ["Android", "Windows Phone", "iOS"];
 let device = platform.os.family;
 
 if(!osOptions.includes(device)){
+
     let typeds = $(".typer-class");
 
     let options = {
