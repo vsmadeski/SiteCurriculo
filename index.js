@@ -16,8 +16,7 @@ app.use(routes);
 
 app.listen(process.env.PORT, function(req, res){
     console.log("Server listening on port " + process.env.PORT + "...");
-    console.log("\n****************************************************************"
-                +"\n\tTO-DO: Fazer alterações da Vaan"
-                +"\n\tTO-DO: Remover efeitos que estão pesando demais"
-                + "\n****************************************************************" );
+    /*console.log("\n****************************************************************"
+                +"\n\t"
+                + "\n****************************************************************" ); */
 });
