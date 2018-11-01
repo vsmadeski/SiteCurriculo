@@ -17,3 +17,20 @@ $("form").submit( (event) => {
         $("form").off("submit").submit();
     });
 });
+
+// Fade-in effect for every object in class effect-fadein
+$(".effect-fadein").css("opacity", 0);
+setTimeout(()=>{
+   let animateds = $(".effect-fadein").toArray();
+
+   for(let i=0; i<animateds.length; i++){
+        let param ={i: i, animatedObj: animateds[i] };
+        let animate = function(){
+            setTimeout(() => {
+                $(this.animatedObj).addClass("animation-fadein");
+            } , (this.i+1)*500);
+        };
+        let bound = animate.bind(param);
+        bound();
+   }
+}, 100);
